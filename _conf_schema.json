@@ -1,0 +1,7 @@
+{
+    "enable": {
+        "description": "开启黑名单",
+        "type": "bool",
+        "default": true
+    }
+}
