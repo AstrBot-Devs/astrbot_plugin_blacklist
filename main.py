@@ -3,7 +3,7 @@ from astrbot.api.star import Context, Star, register
 from astrbot.api import sp
 from astrbot.api.message_components import At
 
-@register("astrbot_plugin_blacklist", "大核桃", "用于禁用指定用户在群聊或全局范围内使用机器人功能的插件，适用于 aiocqhttp, gewechat", "1.0.0")
+@register("astrbot_plugin_blacklist", "大核桃", "黑名单插件，禁止用户和 AstrBot 交互，适用于 aiocqhttp, gewechat", "1.0.0")
 class BanPlugin(Star):
     def __init__(self, context: Context, config: dict):
         super().__init__(context)
